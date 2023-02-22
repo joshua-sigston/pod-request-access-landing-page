@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- style link -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="flex_column">
+        <div class="logo_container center_by_flex">
+            <img src="/images/logo.svg" alt="">
+        </div>
+        <div class="card_container flex_column">
+            <h2>publish your podcasts <span>everywhere</span></h2>
+            <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            <div class="input_link_container flex_column">
+                <div class="link_container flex_row">
+                    <a href="#"><img src="/images/spotify.svg" alt=""></a>
+                    <a href="#"><img src="/images/apple-podcast.svg" alt=""></a>
+                    <a href="#"><img src="/images/google-podcasts.svg" alt=""></a>
+                    <a href="#"><img src="/images/pocket-casts.svg" alt=""></a>
+                </div>
+                <form action="" id="form" class="form">
+                    <div class="input_container flex_column">
+                        <input type="text" class="input" id="input" placeholder="Email address" required>
+                        <button id="btn">Request Access</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="dot_container">
+            <img src="/images/bg-pattern-dots.svg" alt="">
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
