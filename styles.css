@@ -141,7 +141,7 @@ img {
 
 /* main */
 main {
-    background-image: url('/images/background-img-mobile.jpg');
+    background-image: url('images/background-img-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -244,7 +244,7 @@ button {
 
 @media screen and (min-width: 768px) {
     main {
-        background-image: url('/images/background-img-tab.jpg');
+        background-image: url('images/background-img-tab.jpg');
         background-size: 491px 767px;
         background-position: 100% 0;
         background-repeat: no-repeat;
@@ -317,7 +317,7 @@ button {
 
 @media screen and (min-width: 1170px) {
     main {
-        background-image: url('/images/background-img-desktop.jpg');
+        background-image: url('images/background-img-desktop.jpg');
         background-size: 888px 640px;
         background-position: right;
         background-repeat: no-repeat;
